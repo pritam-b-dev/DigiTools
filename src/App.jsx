@@ -12,6 +12,7 @@ const productsPromise = getProducts();
 
 function App() {
   const [activeTab, setActiveTab] = useState("product");
+  const [carts, setCarts] = useState([]);
   return (
     <>
       <div className="tabs tabs-box justify-center">
@@ -27,15 +28,19 @@ function App() {
           type="radio"
           name="my_tabs_1"
           className="tab"
-          aria-label="Cart"
+          aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab("cart")}
         />
       </div>
 
       {activeTab === "product" && (
-        <Product productsPromise={productsPromise}></Product>
+        <Product
+          productsPromise={productsPromise}
+          carts={carts}
+          setCarts={setCarts}
+        ></Product>
       )}
-      {activeTab === "cart" && <Cart></Cart>}
+      {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
     </>
   );
 }

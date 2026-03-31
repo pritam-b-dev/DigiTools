@@ -1,6 +1,19 @@
 import React from "react";
+import { useState } from "react";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, carts, setCarts }) => {
+  const [isBuy, setIsBuy] = useState(false);
+
+  const handleBuyProduct = () => {
+    setIsBuy(true);
+    const isFound = carts.find((item) => item.id === product.id);
+    if (isFound) {
+      alert("Item already in cart");
+      return;
+    }
+    setCarts([...carts, product]);
+  };
+
   return (
     <>
       <div className="p-5 border border-zinc-200 shadow-md rounded-lg relative">
@@ -28,7 +41,9 @@ const ProductCard = ({ product }) => {
               ))}
             </ul>
           </div>
-          <button className="btn btn-primary w-full">Buy Now</button>
+          <button onClick={handleBuyProduct} className="btn btn-primary w-full">
+            {isBuy ? "Added to Cart" : "Buy Now"}
+          </button>
         </div>
         <div className="absolute top-3 right-5">
           {product.tagType === "best-seller" && (

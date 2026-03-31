@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeForge",
+    "description": "Build professional resumes in minutes with AI-powered templates and ATS optimization.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "PixelCraft Pro",
+    "description": "Design stunning graphics, social media posts, and marketing materials with ease.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Drag & drop editor",
+      "10,000+ assets",
+      "Brand kit",
+      "Team collaboration"
+    ],
+    "icon": "Palette"
+  },
+  {
+    "id": 3,
+    "name": "CodeVault",
+    "description": "Store, organize, and share code snippets across all your projects securely.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited snippets",
+      "Syntax highlighting",
+      "Cloud sync",
+      "VS Code extension"
+    ],
+    "icon": "Code2"
+  },
+  {
+    "id": 4,
+    "name": "DataPulse",
+    "description": "Visualize your business analytics with real-time dashboards and smart reports.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time charts",
+      "CSV & API import",
+      "Custom dashboards",
+      "Export to Excel"
+    ],
+    "icon": "BarChart2"
+  },
+  {
+    "id": 5,
+    "name": "TaskFlow",
+    "description": "Manage projects and tasks with smart automation and team collaboration tools.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Kanban & Gantt view",
+      "Recurring tasks",
+      "Time tracking",
+      "Slack integration"
+    ],
+    "icon": "CheckSquare"
+  },
+  {
+    "id": 6,
+    "name": "InvoiceKit",
+    "description": "Create and send professional invoices, track payments, and manage clients effortlessly.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited invoices",
+      "Auto reminders",
+      "Multi-currency",
+      "Tax calculation"
+    ],
+    "icon": "Receipt"
+  },
+  {
+    "id": 7,
+    "name": "LinkVault",
+    "description": "Save, tag, and organize all your important links and bookmarks in one place.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Browser extension",
+      "Tag & search",
+      "Public sharing",
+      "Import from browser"
+    ],
+    "icon": "Bookmark"
+  },
+  {
+    "id": 8,
+    "name": "FormWizard",
+    "description": "Build powerful forms and surveys with logic, analytics, and integrations.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Conditional logic",
+      "File uploads",
+      "Response analytics",
+      "Webhook support"
+    ],
+    "icon": "ClipboardList"
+  }
+]

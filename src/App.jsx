@@ -1,5 +1,5 @@
 import "./App.css";
-import Tools from "./Components/Tools";
+import Product from "./Components/Product";
 import Cart from "./Components/Cart";
 import { useState } from "react";
 
@@ -33,7 +33,7 @@ function App() {
       </div>
 
       {activeTab === "product" && (
-        <Tools productsPromise={productsPromise}></Tools>
+        <Product productsPromise={productsPromise}></Product>
       )}
       {activeTab === "cart" && <Cart></Cart>}
     </>

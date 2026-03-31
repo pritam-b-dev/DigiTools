@@ -2,6 +2,7 @@ import "./App.css";
 import Product from "./Components/Product";
 import Cart from "./Components/Cart";
 import { useState } from "react";
+import NavBar from "./Components/NavBar";
 
 const getProducts = async () => {
   const res = await fetch("/products.json");
@@ -15,6 +16,7 @@ function App() {
   const [carts, setCarts] = useState([]);
   return (
     <>
+      <NavBar carts={carts}></NavBar>
       <div className="tabs tabs-box justify-center">
         <input
           type="radio"

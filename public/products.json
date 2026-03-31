@@ -13,7 +13,7 @@
       "Export to PDF",
       "Cover letter builder"
     ],
-    "icon": "FileText"
+    "icon": "/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Brand kit",
       "Team collaboration"
     ],
-    "icon": "Palette"
+    "icon": "/camera.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Cloud sync",
       "VS Code extension"
     ],
-    "icon": "Code2"
+    "icon": "/writing_2327400 1.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Custom dashboards",
       "Export to Excel"
     ],
-    "icon": "BarChart2"
+    "icon": "/operation.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Time tracking",
       "Slack integration"
     ],
-    "icon": "CheckSquare"
+    "icon": "/social-media.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Multi-currency",
       "Tax calculation"
     ],
-    "icon": "Receipt"
+    "icon": "/design-tool.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Public sharing",
       "Import from browser"
     ],
-    "icon": "Bookmark"
+    "icon": "/operation.png"
   },
   {
     "id": 8,
@@ -125,6 +125,6 @@
       "Response analytics",
       "Webhook support"
     ],
-    "icon": "ClipboardList"
+    "icon": "/design-tool.png"
   }
 ]

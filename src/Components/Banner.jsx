@@ -31,7 +31,7 @@ const Banner = () => {
             <div class="badge btn btn-xs bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white md:px-6 md:py-5 px-3 py-4 mr-4 hover:bg-linear-to-r hover:from-[#4f39f69e] hover:to-[#9614fac0]">
               Explore Products
             </div>
-            <div className="badge btn-xs badge-outline badge-primary  md:px-6 md:py-5 px-3 py-4 rounded-full hover:bg-gray-100">
+            <div className="badge btn-xs badge-outline badge-primary cursor-pointer md:px-6 md:py-5 px-3 py-4 rounded-full hover:bg-gray-100">
               <Play /> Watch Demo
             </div>
           </div>

@@ -60,8 +60,13 @@ const Pricing = () => {
       <div className="flex flex-col md:flex-row max-w-6xl px-4 mx-auto mb-20 justify-between gap-6">
         {plans.map((item) => (
           <div
-            className={`flex flex-col flex-1 p-5 border border-zinc-300 rounded-lg relative ${item.highlighted ? "bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white border-none" : ""}`}
+            className={`flex flex-col flex-1 p-5 border border-zinc-300 rounded-lg ${item.highlighted ? "relative bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white border-none" : ""}`}
           >
+            {item.highlighted && (
+              <div className="badge badge-soft badge-warning absolute -top-3 left-1/2 -translate-x-1/2  px-4 py-1 rounded-full text-xs font-bold whitespace-nowrap">
+                Most Popular
+              </div>
+            )}
             <div className="flex-1 space-y-5 mb-5">
               <h1 className="font-bold text-2xl">{item.name}</h1>
               <p

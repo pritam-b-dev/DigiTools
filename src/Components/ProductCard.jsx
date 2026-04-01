@@ -20,7 +20,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
     <>
       <div className="p-5 border border-zinc-200 shadow-md rounded-lg relative">
         <div className="space-y-2">
-          <div className="h-10 p-3 rounded-full border border-gray-300 inline-block">
+          <div className="h-15 w-15  rounded-full border border-gray-300 flex justify-center items-center">
             <img
               className="max-h-full max-w-full object-contain"
               src={product.icon}

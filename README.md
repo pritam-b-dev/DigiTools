@@ -1,16 +1,20 @@
-# React + Vite
+## DigiTools — Digital Tools Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A modern digital tools marketplace where users can browse, select, and purchase premium software products with a seamless cart experience.**
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- Fontawsome
+- lucide
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cart Summary — View all selected products with their individual prices and a calculated total price in real time.
 
-## Expanding the ESLint configuration
+- Add & Remove Products — Easily add products to the cart or remove them anytime. Product data is dynamically fetched from a local JSON file.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Cart Notification Badge — A live badge on the cart icon always shows the current number of products added to the cart.

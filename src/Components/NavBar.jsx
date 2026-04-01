@@ -34,6 +34,11 @@ const NavBar = ({ carts }) => {
           <ul className="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
             {" "}
             {NavLinks}{" "}
+            {
+              <li>
+                <a>Login</a>
+              </li>
+            }
           </ul>{" "}
         </div>
         <div className="sm:p-2 text-md font-bold md:text-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
@@ -57,7 +62,7 @@ const NavBar = ({ carts }) => {
           </span>
         </div>
         <p className="hidden md:block font-semibold text-[#101727]">Login</p>
-        <a className="btn btn-xs bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white hover:bg-linear-to-r hover:from-[#4f39f69e] hover:to-[#9614fac0]">
+        <a className="btn btn-xs md:btn-md bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white hover:bg-linear-to-r hover:from-[#4f39f69e] hover:to-[#9614fac0]">
           Get Started
         </a>
       </div>

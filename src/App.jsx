@@ -3,6 +3,8 @@ import Product from "./Components/Product";
 import Cart from "./Components/Cart";
 import { useState } from "react";
 import NavBar from "./Components/NavBar";
+import Banner from "./Components/Banner";
+import Dashboard from "./Components/Dashboard";
 
 const getProducts = async () => {
   const res = await fetch("/products.json");
@@ -17,7 +19,16 @@ function App() {
   return (
     <>
       <NavBar carts={carts}></NavBar>
-      <div className="tabs tabs-box justify-center">
+      <Banner></Banner>
+      <Dashboard></Dashboard>
+      <div className="flex flex-col justify-center items-center mb-5 space-y-5">
+        <h1 className="font-extrabold text-5xl">Premium Digital Tools</h1>
+        <p className="text-[#627382] text-center">
+          Choose from our curated collection of premium digital products
+          designed <br /> to boost your productivity and creativity.
+        </p>
+      </div>
+      <div className="tabs tabs-box justify-center ">
         <input
           type="radio"
           name="my_tabs_1"

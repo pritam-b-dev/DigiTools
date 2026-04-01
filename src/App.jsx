@@ -28,22 +28,24 @@ function App() {
           designed <br /> to boost your productivity and creativity.
         </p>
       </div>
-      <div className="tabs tabs-box justify-center ">
-        <input
-          type="radio"
-          name="my_tabs_1"
-          className="tab"
-          aria-label="Products"
-          defaultChecked
-          onClick={() => setActiveTab("product")}
-        />
-        <input
-          type="radio"
-          name="my_tabs_1"
-          className="tab"
-          aria-label={`Cart (${carts.length})`}
-          onClick={() => setActiveTab("cart")}
-        />
+      <div className="tabs justify-center bg-transparent ">
+        <span className="border border-zinc-200 rounded-full p-2">
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab btn btn-ghost rounded-full checked:bg-linear-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:rounded-full checked:text-white px-6 py-5 mr-4"
+            aria-label="Products"
+            defaultChecked
+            onClick={() => setActiveTab("product")}
+          />
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab btn btn-ghost rounded-full checked:bg-linear-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:rounded-full checked:text-white px-6 py-5"
+            aria-label={`Cart (${carts.length})`}
+            onClick={() => setActiveTab("cart")}
+          />
+        </span>
       </div>
 
       {activeTab === "product" && (

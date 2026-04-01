@@ -3,14 +3,14 @@ import React from "react";
 const Process = () => {
   return (
     <>
-      <div className="bg-zinc-50 py-10">
+      <div className="bg-zinc-50 py-10 px-4">
         <div className="flex flex-col gap-6 justify-center items-center max-w-6xl mx-auto mb-10">
           <h1 className="font-extrabold text-5xl">Get Started in 3 Steps</h1>
           <p className="text-[#627382]">
             Start using premium digital tools in minutes, not hours.
           </p>
         </div>
-        <div className="flex justify-between max-w-6xl mx-auto mb-10">
+        <div className="flex flex-col gap-2 md:flex-row justify-between max-w-6xl mx-auto mb-10">
           <div className="py-15 px-7 bg-white border border-zinc-200 shadow-md rounded-lg relative ">
             <div className="flex flex-col justify-center items-center space-y-5">
               <div className=" flex justify-center items-center p-3 rounded-full bg-[#9614fa3c]">

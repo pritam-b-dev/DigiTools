@@ -3,7 +3,7 @@ import React from "react";
 const JoinUs = () => {
   return (
     <>
-      <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-20">
+      <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-20 px-4">
         <div className="max-w-6xl mx-auto text-center space-y-5">
           <h1 className="font-extrabold text-5xl text-white">
             Ready to Transform Your Workflow?
@@ -23,7 +23,7 @@ const JoinUs = () => {
               View Pricing
             </button>
           </div>
-          <p className="text-[#ffffffbb]">
+          <p className="text-[#ffffffbb] text-[12px] md:text-base">
             14-day free trial • No credit card required • Cancel anytime
           </p>
         </div>

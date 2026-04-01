@@ -25,7 +25,9 @@ function App() {
       <Banner></Banner>
       <Dashboard></Dashboard>
       <div className="flex flex-col justify-center items-center mb-5 space-y-5">
-        <h1 className="font-extrabold text-5xl">Premium Digital Tools</h1>
+        <h1 className="font-extrabold text-5xl text-center md:text-left">
+          Premium Digital Tools
+        </h1>
         <p className="text-[#627382] text-center">
           Choose from our curated collection of premium digital products
           designed <br /> to boost your productivity and creativity.

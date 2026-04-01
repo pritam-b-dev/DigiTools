@@ -49,7 +49,7 @@ const plans = [
 const Pricing = () => {
   return (
     <>
-      <div className="max-w-6xl mx-auto text-center mt-20 mb-10">
+      <div className="max-w-6xl mx-auto text-center mt-20 mb-10 px-4">
         <h1 className="font-extrabold text-5xl pb-5">
           Simple, Transparent Pricing
         </h1>
@@ -57,7 +57,7 @@ const Pricing = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="flex max-w-6xl mx-auto mb-20 justify-between gap-6">
+      <div className="flex flex-col md:flex-row max-w-6xl px-4 mx-auto mb-20 justify-between gap-6">
         {plans.map((item) => (
           <div
             className={`flex flex-col flex-1 p-5 border border-zinc-300 rounded-lg relative ${item.highlighted ? "bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white border-none" : ""}`}

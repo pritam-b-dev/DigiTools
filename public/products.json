@@ -4,7 +4,7 @@
     "name": "ResumeForge",
     "description": "Build professional resumes in minutes with AI-powered templates and ATS optimization.",
     "price": 12,
-    "period": "monthly",
+    "period": "Month",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
@@ -20,7 +20,7 @@
     "name": "PixelCraft Pro",
     "description": "Design stunning graphics, social media posts, and marketing materials with ease.",
     "price": 19,
-    "period": "monthly",
+    "period": "Month",
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": [
@@ -36,7 +36,7 @@
     "name": "CodeVault",
     "description": "Store, organize, and share code snippets across all your projects securely.",
     "price": 49,
-    "period": "one-time",
+    "period": "One-time",
     "tag": "New",
     "tagType": "new",
     "features": [
@@ -52,7 +52,7 @@
     "name": "DataPulse",
     "description": "Visualize your business analytics with real-time dashboards and smart reports.",
     "price": 29,
-    "period": "monthly",
+    "period": "Month",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
@@ -68,7 +68,7 @@
     "name": "TaskFlow",
     "description": "Manage projects and tasks with smart automation and team collaboration tools.",
     "price": 99,
-    "period": "yearly",
+    "period": "Year",
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": [
@@ -84,7 +84,7 @@
     "name": "InvoiceKit",
     "description": "Create and send professional invoices, track payments, and manage clients effortlessly.",
     "price": 79,
-    "period": "yearly",
+    "period": "Year",
     "tag": "New",
     "tagType": "new",
     "features": [
@@ -100,7 +100,7 @@
     "name": "LinkVault",
     "description": "Save, tag, and organize all your important links and bookmarks in one place.",
     "price": 15,
-    "period": "one-time",
+    "period": "One-time",
     "tag": "New",
     "tagType": "new",
     "features": [
@@ -116,7 +116,7 @@
     "name": "FormWizard",
     "description": "Build powerful forms and surveys with logic, analytics, and integrations.",
     "price": 18,
-    "period": "monthly",
+    "period": "Month",
     "tag": "Popular",
     "tagType": "popular",
     "features": [

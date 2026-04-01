@@ -27,14 +27,16 @@ const ProductCard = ({ product, carts, setCarts }) => {
               alt=""
             />
           </div>
-          <div>{product.name}</div>
-          <div>{product.description}</div>
+          <div className="font-bold text-2xl">{product.name}</div>
+          <div className="text-[#627382]">{product.description}</div>
           <div>
-            $<span>{product.price}</span>
-            <span>/{product.period}</span>
+            <span className="font-bold text-2xl">
+              $<span>{product.price}</span>
+            </span>
+            <span className="text-[#627382]">/{product.period}</span>
           </div>
           <div>
-            <ul>
+            <ul className="text-[#627382]">
               {product.features.map((feat) => (
                 <li>
                   <img className="inline mr-2" src="/Check.png" alt="" />
@@ -50,7 +52,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
             {isBuy ? "Added to Cart" : "Buy Now"}
           </button>
         </div>
-        <div className="absolute top-3 right-5">
+        <div className="absolute top-2 right-5">
           {product.tagType === "best-seller" && (
             <div class="badge badge-soft badge-warning px-3 rounded-2xl">
               Best Seller

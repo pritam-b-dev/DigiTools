@@ -8,6 +8,7 @@ import Dashboard from "./Components/Dashboard";
 import Process from "./Components/Process";
 import Pricing from "./Components/Pricing";
 import JoinUs from "./Components/JoinUs";
+import Footer from "./Components/Footer";
 
 const getProducts = async () => {
   const res = await fetch("/products.json");
@@ -64,6 +65,7 @@ function App() {
       <Process></Process>
       <Pricing></Pricing>
       <JoinUs></JoinUs>
+      <Footer></Footer>
     </>
   );
 }

@@ -112,7 +112,7 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-2 mt-2 text-lg">
               Social Links
             </h3>
-            <ul className="space-y-4 text-zinc-400 flex gap-10">
+            <ul className="space-y-4 text-zinc-400 flex gap-10 lg:gap-4">
               <li className="bg-white rounded-full w-7 h-7 flex justify-center items-center">
                 <a href="#" className="">
                   <FontAwesomeIcon icon={faXTwitter} className="text-black" />

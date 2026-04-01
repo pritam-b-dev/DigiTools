@@ -1,5 +1,6 @@
 import React from "react";
 import { Check } from "lucide-react";
+
 const plans = [
   {
     name: "Starter",
@@ -63,7 +64,7 @@ const Pricing = () => {
             className={`flex flex-col flex-1 p-5 border border-zinc-300 rounded-lg ${item.highlighted ? "relative bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white border-none" : ""}`}
           >
             {item.highlighted && (
-              <div className="badge badge-soft badge-warning absolute -top-3 left-1/2 -translate-x-1/2  px-4 py-1 rounded-full text-xs font-bold whitespace-nowrap">
+              <div className="badge bg-yellow-100 text-amber-700 absolute -top-3 left-1/2 -translate-x-1/2  px-4 py-1 rounded-full text-xs font-bold whitespace-nowrap">
                 Most Popular
               </div>
             )}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Menu } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 
 const NavBar = ({ carts }) => {
   const NavLinks = (
@@ -52,16 +53,12 @@ const NavBar = ({ carts }) => {
       </div>
       <div className="navbar-end gap-3 md:gap-5">
         <div className="indicator">
-          <img
-            className="w-3.5 h-3.5 md:w-6 md:h-6"
-            src="/shopping-cart.png"
-            alt=""
-          />
+          <ShoppingCart className="text-zinc-500" size={24} />
           <span className="indicator-item rounded-full md:badge md:badge-xs text-white bg-red-500 md:-translate-y-3 md:translate-x-4 w-3.5 h-3.5 md:w-6 md:h-6 flex items-center justify-center text-xs">
             {carts.length}
           </span>
         </div>
-        <p className="hidden md:block font-semibold text-[#101727]">Login</p>
+        <p className="hidden md:block font-semibold text-zinc-500">Login</p>
         <a className="btn btn-xs md:btn-md bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white hover:bg-linear-to-r hover:from-[#4f39f69e] hover:to-[#9614fac0]">
           Get Started
         </a>

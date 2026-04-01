@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className=" bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 lg:grid-cols-12 md:gap-8 lg:gap-12 lg:justify-items-start">
+        <div className="grid md:grid-cols-3 lg:grid-cols-12 gap-4 md:gap-8 lg:gap-12 lg:justify-items-start">
           {/* Logo & Description */}
           <div className="md:col-span-3 lg:col-span-4">
             <h2 className=" text-3xl font-bold pb-5 tracking-tighter text-white">
@@ -33,7 +33,9 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="md:col-span-1 lg:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
+            <h3 className="text-white font-semibold mb-2 mt-2 text-lg">
+              Product
+            </h3>
             <ul className="space-y-4 text-zinc-400 ">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -59,7 +61,9 @@ const Footer = () => {
           </div>
 
           <div className="md:col-span-1 lg:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
+            <h3 className="text-white font-semibold mb-2 mt-2 text-lg">
+              Company
+            </h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -85,7 +89,9 @@ const Footer = () => {
           </div>
 
           <div className="md:col-span-1 lg:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Resources</h3>
+            <h3 className="text-white font-semibold mb-2 mt-2 text-lg">
+              Resources
+            </h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -111,7 +117,7 @@ const Footer = () => {
           </div>
 
           <div className="md:col-span-1 lg:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">
+            <h3 className="text-white font-semibold mb-2 mt-2 text-lg">
               Social Links
             </h3>
             <ul className="space-y-4 text-zinc-400 flex gap-10">

@@ -7,6 +7,7 @@ import Banner from "./Components/Banner";
 import Dashboard from "./Components/Dashboard";
 import Process from "./Components/Process";
 import Pricing from "./Components/Pricing";
+import JoinUs from "./Components/JoinUs";
 
 const getProducts = async () => {
   const res = await fetch("/products.json");
@@ -60,6 +61,7 @@ function App() {
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
       <Process></Process>
       <Pricing></Pricing>
+      <JoinUs></JoinUs>
     </>
   );
 }

@@ -7,12 +7,16 @@ const Banner = () => {
       <div className="flex justify-between max-w-6xl mx-auto mb-10 items-center">
         <div className="space-y-4">
           <div className="space-y-6">
-            <div className="bg-[#9614fa15] w-65 rounded-full ">
-              <div className="badge badge-soft badge-primary font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
-                <img className="animate-pulse" src="/circle.png" alt="" />
+            <button className=" flex px-2 py-1 gap-1 rounded-full bg-[#4f39f61d]">
+              <img
+                className="animate-pulse object-contain"
+                src="/circle.png"
+                alt=""
+              />
+              <span className=" bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-medium">
                 New: AI-Powered Tools Available
-              </div>
-            </div>
+              </span>
+            </button>
             <h1 className="text-7xl font-extrabold">
               Supercharge Your <br /> Digital Workflow
             </h1>

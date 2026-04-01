@@ -14,7 +14,7 @@ const Cart = ({ carts, setCarts }) => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto mt-5 mb-5 p-10 border border-zinc-300 rounded-2xl">
+    <div className="max-w-6xl mx-auto mt-5 mb-15 p-10 border border-zinc-300 rounded-2xl">
       {carts.length === 0 ? (
         <p className="flex justify-center items-center text-4xl">
           Your Cart is empty

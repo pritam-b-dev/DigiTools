@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <footer className=" bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div className="grid md:grid-cols-3 lg:grid-cols-12 md:gap-8 lg:gap-12 lg:justify-items-start">
           {/* Logo & Description */}
-          <div className="md:col-span-4">
-            <h2 className="text-3xl font-bold pb-5 tracking-tighter text-white">
+          <div className="md:col-span-3 lg:col-span-4">
+            <h2 className=" text-3xl font-bold pb-5 tracking-tighter text-white">
               DigiTools
             </h2>
 
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400 ">
               <li>
@@ -58,7 +58,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
@@ -84,7 +84,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">Resources</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
@@ -110,11 +110,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">
               Social Links
             </h3>
-            <ul className="space-y-4 text-zinc-400 flex gap-2">
+            <ul className="space-y-4 text-zinc-400 flex gap-10">
               <li className="bg-white rounded-full w-7 h-7 flex justify-center items-center">
                 <a href="#" className="">
                   <FontAwesomeIcon icon={faXTwitter} className="text-black" />
@@ -135,7 +135,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
+        <div className="mt-10 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div>
             © {new Date().getFullYear()} DigiTools. All rights reserved.
           </div>

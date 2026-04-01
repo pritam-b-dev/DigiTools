@@ -21,14 +21,6 @@ const Footer = () => {
               Premium digital tools for creators, professionals, and businesses.
               Work smarter with our suite of powerful tools.
             </p>
-
-            {/* <div className="mt-8 flex gap-6 text-2xl text-zinc-500">
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaTwitter /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaGithub /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaLinkedin /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaDiscord /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaYoutube /></a>
-                        </div> */}
           </div>
 
           {/* Quick Links */}
